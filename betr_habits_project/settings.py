@@ -144,8 +144,6 @@ USE_TZ = True
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
 
-heroku config:set DISABLE_COLLECTSTATIC=1
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
